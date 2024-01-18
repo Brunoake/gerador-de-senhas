@@ -112,7 +112,8 @@ input:focus{
     margin-bottom: 0.5rem;
 }
 
-#register-form input[type="submit"] {
+#register-form input[type="submit"],
+#generate-options button {
     background-color: #81d340;
     color: #fff;
     opacity: 0.8;
@@ -127,4 +128,25 @@ input:focus{
 
 #register-form input[type="submit"]:hover{
     opacity: 1;
+}
+
+#generate-options{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+#generate-options .form-control{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#generate-options label {
+    font-size: 0.8rem;
+}
+
+#generate-options input[type="text"] {
+    max-width: 30px;
+    text-align: 1px solid #ccc;
 }
