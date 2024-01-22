@@ -149,4 +149,11 @@ input:focus{
 #generate-options input[type="text"] {
     max-width: 30px;
     text-align: 1px solid #ccc;
+    border: 1px solid #ccc;
+}
+
+#generate-options button{
+    background-color: #0097ff;
+    display: block;
+    margin: 0 auto;
 }
